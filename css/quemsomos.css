@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: rgb(230, 227, 227);
+  width: 100%;
+  /* position: fixed; */
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header img {
+  width: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: #191c03;
+}
+
+header nav {
+  display: flex;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 1;
+  padding: 0 10px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+nav, ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+.hero {
+  background-color: rgb(32, 30, 30);
+  color: rgb(193, 199, 204);
+  
+}
+
+.holl-professores {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title {
+  text-align: center;
+  font-size: 20pt;
+  margin: 10px;
+}
+
+.paragraph {
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 15pt;
+}
+
+.professor {
+  display: flex;
+  flex-direction: column;
+  border: aliceblue 1px solid;
+  width: 25%;
+  margin: 4px;
+  padding: 5px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.professor:hover {
+  width: 80%;
+}
+
+.img-professores {
+  margin: 2px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(230, 227, 227);
+  padding: 40px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+footer ul {
+  display: flex;
+  flex-basis: content;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li i {
+  color: #2a2a2a;
+  font-size: 25px;
+}
+
+footer p {
+  color: #1d1d1d;
+  text-align: center;
+}
+
+footer ul li:nth-child(1) {
+  order: 4;
+}
+
+footer ul li:nth-child(2) {
+  order: 3;
+}
+
+footer ul li:nth-child(3) {
+  order: 2;
+}
+
+footer ul li:nth-child(4) {
+  order: 1
+}
