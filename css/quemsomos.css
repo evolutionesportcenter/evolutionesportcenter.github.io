@@ -14,7 +14,7 @@
 header {
   background-color: rgb(230, 227, 227);
   width: 100%;
-  /* position: fixed; */
+  position: fixed;
   padding-top: 5px;
   display: flex;
   justify-content: space-between;
@@ -58,9 +58,9 @@ nav, ul {
 }
 
 .hero {
+  margin-top: 150px;
   background-color: rgb(32, 30, 30);
-  color: rgb(193, 199, 204);
-  
+  color: rgb(255, 255, 255);  
 }
 
 .holl-professores {
@@ -80,6 +80,7 @@ nav, ul {
   text-align: center;
   font-size: 20pt;
   margin: 10px;
+  color: rgb(179, 175, 131);
 }
 
 .paragraph {
@@ -96,7 +97,9 @@ nav, ul {
   margin: 4px;
   padding: 5px;
   align-items: center;
-  transition: 0.5s;
+  transition: 1s;
+  border-radius: 15px;
+  background-color: rgb(87, 84, 89);
 }
 
 .professor:hover {
@@ -107,8 +110,14 @@ nav, ul {
   margin: 2px;
   max-width: 200px;
   max-height: 200px;
+  border-radius: 10px;
 }
 
+.rede-social {
+  font-size: 30px;
+  margin: 5px;
+  display: flex;
+}
 
 
 
