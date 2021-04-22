@@ -28,6 +28,7 @@ header a {
 }
 
 header nav {
+  flex-wrap: wrap;
   display: flex;
   margin-right: 15px;
 }
@@ -53,7 +54,7 @@ nav, ul {
 }
 
 .hero {
-  background-image: url(../images/foto02.jpg);
+  background-image: url(../images/foto-hero.jpg);
   background-size: cover;
   min-height: 100vh;
   color: white;
@@ -67,7 +68,7 @@ nav, ul {
 .hero h1 {
   font-size: 50px;
   margin-bottom: 15px;
-  color: rgb(122, 118, 118);
+  color: rgb(228, 217, 156);
 }
 
 .hero h3 {

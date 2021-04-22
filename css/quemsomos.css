@@ -76,18 +76,6 @@ nav, ul {
   padding: 5px;
 }
 
-.title {
-  text-align: center;
-  font-size: 20pt;
-  margin: 10px;
-  color: rgb(179, 175, 131);
-}
-
-.paragraph {
-  text-align: justify;
-  text-indent: 20px;
-  font-size: 15pt;
-}
 
 .professor {
   display: flex;
@@ -95,7 +83,7 @@ nav, ul {
   border: aliceblue 1px solid;
   width: 25%;
   margin: 4px;
-  padding: 5px;
+  padding: 10px;
   align-items: center;
   transition: 1s;
   border-radius: 15px;
@@ -117,6 +105,42 @@ nav, ul {
   font-size: 30px;
   margin: 5px;
   display: flex;
+}
+
+.professor p {
+  text-align: center;
+  margin: 15px;
+}
+
+.btn-prof {
+  background-color: rgb(230, 227, 227);
+  width: 120px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.description-prof {
+  margin: 60px 15px;
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 20pt;
+  margin: 30px;
+  color: rgb(179, 175, 131);
+}
+
+.title-description {
+  text-align: center;
+  font-size: 30pt;
+  margin: 10px;
+  color: rgb(179, 175, 131);
+}
+
+.paragraph {
+  text-align: justify;
+  font-size: 15pt;
 }
 
 
