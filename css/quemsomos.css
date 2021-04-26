@@ -59,13 +59,8 @@ nav, ul {
 
 .hero {
   margin-top: 150px;
-  background-color: rgb(32, 30, 30);
+  background-color: rgb(19, 17, 17);
   color: rgb(255, 255, 255);  
-}
-
-.holl-professores {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .description {
@@ -76,6 +71,14 @@ nav, ul {
   padding: 5px;
 }
 
+.academia {
+  font-weight: bold;
+}
+
+.holl-professores {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .professor {
   display: flex;
@@ -127,7 +130,7 @@ nav, ul {
 .title {
   text-align: center;
   font-size: 20pt;
-  margin: 30px;
+  margin: 15px;
   color: rgb(179, 175, 131);
 }
 
@@ -139,10 +142,47 @@ nav, ul {
 }
 
 .paragraph {
-  text-align: justify;
+  text-align: center;
   font-size: 15pt;
 }
 
+@media screen and (max-width: 720px) {
+  header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    margin: 5px;
+    font-size: 20px;
+  }
+  .hero {
+    margin-top: 0;
+  }
+
+  .holl-professores {
+    width: 200%;
+    flex-direction: column;
+  }
+
+  .professor {
+    margin: 10px 150px;
+  }
+
+  .professor p {
+    display: none;
+  }
+
+  footer ul li {
+    font-size: 40px;
+  }
+
+}
 
 
 

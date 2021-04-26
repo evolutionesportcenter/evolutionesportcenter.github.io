@@ -54,28 +54,15 @@ nav, ul {
 }
 
 .hero {
-  background-image: url(../images/foto-hero.jpg);
+  background-image: url(../images/foto-hero01.jpg);
+  background-position: center;
   background-size: cover;
+  width: 100%;
   min-height: 100vh;
-  color: white;
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.hero h1 {
-  font-size: 50px;
-  margin-bottom: 15px;
-  color: rgb(228, 217, 156);
-}
-
-.hero h3 {
-  width: 800px;
-  font-size: 17px;
-  margin-bottom: 15px;
-  color: rgb(122, 118, 118);
 }
 
 .know-the-hotel {
@@ -108,41 +95,6 @@ nav, ul {
   background-color: #191c03;
 }
 
-.holl {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 70px;
-}
-
-.holl h1 {
-  font-size: 40px;
-  text-align: center;
-  color: rgb(25, 28, 3);
-}
-.know-the-hotel .grid {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.know-the-hotel .grid li {
-  height: 350px;
-  padding: 20px;
-  border-radius: 4px;
-  background-clip: content-box;
-  background-size: cover;
-  background-position: center;
-}
-
-.know-the-hotel .grid li.small {
-  flex-basis: 40%;
-}
-
-.know-the-hotel .grid li.large {
-  flex-basis: 60%;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -171,75 +123,63 @@ footer ul li i {
 }
 
 footer p {
+  margin-top: 13px;
   color: #1d1d1d;
   text-align: center;
 }
 
-footer ul li:nth-child(1) {
-  order: 4;
-}
-
-footer ul li:nth-child(2) {
-  order: 3;
-}
-
-footer ul li:nth-child(3) {
-  order: 2;
-}
-
-footer ul li:nth-child(4) {
-  order: 1
-}
-
-@media screen and (max-width: px) {
+@media screen and (max-width: 720px) {
   header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+  }
+
+  .hero {
+    background-image: url(../images/foto-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
     display: flex;
     flex-direction: column;
   }
-
-  #nav a {
-    font-size: 15px;
+  nav a {
+    margin: 5px;
+    font-size: 20px;
   }
+}
 
-  header {
+@media screen and (max-width: 600px) {
+  .hero {
+    background-image: url(../images/foto-hero02.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
   }
+}
 
+@media screen and (max-width: 350px) {
   .hero h1 {
     font-size: 30px;
-  }
-
-  .hero h3 {
-    font-size: 40%;
   }
 
   .know-the-hotel {
     padding: 100px 10px;
   }
-
-  .know-the-hotel .grid li {
-    padding: 10px;
-  }
-
-  .know-the-hotel .grid li.small {
-    flex-basis: 100%;
-  }
   
-  .know-the-hotel .grid li.large {
-    flex-basis: 100%;
-  }
-
-  .features .grid {
-    flex-direction: column;
-  }
-
-  .newsletter button {
-    margin-top: 10px;
-  }
-
-
-
   footer ul li i {
     font-size: 40px;
   }
